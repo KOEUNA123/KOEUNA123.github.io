@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryuichi Sakamoto</title>
+    <style>
+        body {
+            background-color: dimgray;
+        }
+
+        header {
+            width: 100%;
+            height: 100px;
+            margin-top: 10px;
+        }
+
+        #logo {
+            float: left;
+            padding-top: 20px;
+            padding-left: 90px;
+        }
+
+        nav {
+            float: right;
+            margin: 35px 100px 0 0;
+        }
+
+        a:hover {
+            color: whitesmoke;
+        }
+
+        a {
+            font-family: pretendard;
+            font-size: 23px;
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+        }
+
+        b {
+            font-family: pretendard;
+            font-size: 23px;
+            font-weight: bold;
+            color: whitesmoke;
+        }
+
+        table {
+            margin-left: 80px;
+            border-collapse: collapse;
+            width: 90%;
+            margin-top: 10px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            font-family: pretendard;
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        em {
+            font-family: pretendard;
+            font-size: 17px;
+            font-weight: bold;
+            color: darkgrey;
+        }
+
+        #main_ex {
+            width: 1500px;
+            height: 150px;
+            margin-left: 250px;
+            margin-top: 90px;
+        }
+
+        #main_ex h3 {
+            font-family: pretendard;
+            font-size: 45px;
+            color: lightgrey;
+            text-align: center;
+        }
+
+        #main_ex h4 {
+            font-family: pretendard;
+            font-size: 20px;
+            color: lightgrey;
+            font-weight: normal;
+            text-align: center;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="main_page.html">
+                <img src="img/pianologo3.png" width="45">
+            </a>
+        </div>
+
+        <nav>
+            <a href="profile.html">프로필</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>대표음악</b>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="book.html">도서</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="movie.html">영화</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="good.html">추천음악</a>
+        </nav>
+    </header>
+
+    <section id="main_ex">
+        <h3>❝ 음악은 청중의 마음에 전해질 때 비로소 완성된다 ❞</h3>
+        <h4>수 많은 사람들에게 감동과 여운을 남긴 그의 음악들을 소개합니다</h4>
+    </section>
+
+    <table>
+        <tr>
+            <td><img src="img/album1.jpg" width="415"></td>
+            <td><img src="img/album2.jpg" width="450"></td>
+            <td><img src="img/album3.jpg" width="440"></td>
+            <td><img src="img/album4.jpg" width="423"></td>
+            <td><img src="img/album5.jpg" width="450"></td>
+        </tr>
+        <tr>
+            <td>
+                <em>[Original Soundtrack 『怪物』]</em>
+                <br>
+                <br>고레에다 히로카즈의 신작 [괴물]을 위해 <br>만든 음악들을 담은 사운드트랙
+            </td>
+
+            <td>
+                <em>[KOKO]</em>
+                <br>
+                <br>2008년도에 발매된 곡 <br> 3개의 연주곡을 들을 수 있다
+            </td>
+
+            <td>
+                <em>[THREE]</em>
+                <br>
+                <br> 스트링 트리오 앨범
+                <br> 명반들이 많이 삽입되어있다
+            </td>
+
+            <td>
+                <em>[Playing The Piano 12122020]</em>
+                <br>
+                <br> 2020년 12월 12일에 가진 <br>라이브를 담은 피아노 솔로 앨범
+            </td>
+
+            <td>
+                <em>[BTTB]</em>
+                <br>
+                <br> Energy Flow 라는 곡이 <br> 엄청나게 히트했다
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
