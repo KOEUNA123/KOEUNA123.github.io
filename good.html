@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryuichi Sakamoto</title>
+    <style>
+         body {
+               background-image: url('img/snowyy.gif');
+               background-size: 100% auto; /* 이미지를 화면에 맞게 조절 */
+               background-position: center; /* 이미지를 가운데 정렬 */
+               background-repeat: no-repeat; /* 이미지 반복 없음 */
+               height: 97.7vh;}
+
+         header { width: 100%; height: 100px; margin-top: 10px;}
+        #logo {float: left; padding-top: 20px; padding-left: 90px;}
+        nav {float: right; margin: 35px 100px 0 0;}
+        a:hover {color: whitesmoke;}
+
+        .hover-effect {/* 이미지에 대한 기본 스타일 */
+            transition: transform 0.3s ease-in-out;}
+        .hover-effect:hover { /* 호버링 효과 스타일 */
+        transform: scale(1.1);}
+
+        a { font-family: pretendard; font-size: 23px; text-decoration: none; font-weight: bold; color: lightgrey;}
+        b { font-family: pretendard; font-size: 23px; font-weight: bold; color: white; }
+
+        #top_text {width: 1500px; height: 60px; margin-left: 200px; margin-top: 50px; }
+        #top_text h3 {font-family: pretendard; font-size: 50px; color: whitesmoke; text-align: center; 
+            margin-top: 5px; }
+        
+        #main_video {width: 650px; height: 365px; float: center; margin-left: 575px; margin-top: 30px; }
+
+        #main_text {width: 1300px; height: 150px; margin-left: 300px; margin-top: 80px; }
+        #main_text h3 {font-family: pretendard; font-size: 15px; color: lightgrey; text-align: center;
+        font-weight: 400; }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="main_page.html">
+               <img src="img/pianologo4.png" width="45" class="hover-effect">
+            </a>
+         </div>
+   
+        <nav>
+            <a href="profile.html">프로필</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="music.html">대표음악</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="book.html">도서</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="movie.html">영화</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>추천음악</b>
+        </nav>
+    </header>
+
+    <section id="top_text">
+        <h3> Merry Christmas, Mr. Lawrence </h3>
+    </section>
+
+    <section id="main_video">
+        <video width="750" controls autoplay loop >
+            <source src="last.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section id="main_text">
+        <h3> 류이치 사카모토의 곡들 중 개인적으로 가장 추천하고 싶은 노래는 <br> 바로 Merry Christmas, Mr. Lawrence 라는 곡이다<br>
+         이 노래가 류이치 사카모토라는 사람을 알게 된 계기였기도 하고 <br> 겨울 특유의 감성이 곡에서 잘 느껴져서 좋아하게 된 것 같다 <br>
+         겨울이 돌아올 때마다 한번씩은 꼭 듣는데 이미 너무 유명한 노래지만 <br> 더 많은 사람들이 들어봤으면 해서 추천하고 싶다  </h3>
+    </section>
+     
+</body>
+</html>
